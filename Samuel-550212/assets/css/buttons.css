@@ -1,0 +1,32 @@
+.icons {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.icons-size {
+    font-size: 40px;
+    width: 24%;
+}
+
+.direction {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.price {
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.price:hover {
+    transform: scale(1.1);
+}
